@@ -1,12 +1,8 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-size: medium;
-}
+@import "../../styles/mixins";
+@import "../../styles/variables";
 
 .h1-title {
-  color: blueviolet;
+  color: $textColor;
   border: 2px solid blueviolet;
   padding: 2px 10px;
   font-size: large;
@@ -37,11 +33,11 @@ a {
 
 .flex a {
   padding: 10px 16px;
-  color: blueviolet;
+  color: $textColor;
 }
 
 a:hover {
-  border-bottom: 2px solid blueviolet;
+  border-bottom: 2px solid $textLight1Color;
 }
 
 ul {

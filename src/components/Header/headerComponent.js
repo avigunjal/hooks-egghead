@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import './header.css';
+import './header.scss';
 
 function Header({title}) {
     return (
