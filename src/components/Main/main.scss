@@ -1,20 +1,57 @@
 @import "../../styles/variables";
 
 .main-container {
-  max-width: 60%;
-  height: 80vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
+  justify-content: space-between;
+}
+.main {
+  width: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+  margin: 50px 10px;
+  padding: 40px;
   text-align: justify;
   text-decoration: auto;
   text-align: left;
-  text-transform: uppercase;
-  margin: 20px;
+  text-transform: none;
+}
+
+.bg-img {
+  width: 45%;
+  margin: 0;
+  right: 0;
+  height: 92vh;
+  order: 2;
+}
+
+p.main-para {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+a.link {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid $primaryColor;
+  width: fit-content;
+  padding: 8px 12px;
+  margin: 0 10px;
+  text-align: center;
+}
+
+a.link:hover {
+  background-color: $primaryColor;
+  color: whitesmoke;
 }
 
 .main-header {
-  display: block;
-  padding: 20px;
+  font-weight: 200;
+  letter-spacing: 0.1rem;
+  padding: 10px;
+  margin: 20px 0;
 }
